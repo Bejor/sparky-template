@@ -6,7 +6,10 @@
   "scripts": {
     "lint:js": "eslint . --ext .json,.js",
     "lint:css": "stylelint blocks/**/*.css styles/*.css",
-    "lint": "npm run lint:js && npm run lint:css"
+    "lint": "npm run lint:js && npm run lint:css",
+    "watch": "webpack --mode development --watch",
+    "build": "webpack --mode production",
+    "up": "npm run watch & aem up"
   },
   "repository": {
     "type": "git",
@@ -20,11 +23,24 @@
   "homepage": "https://github.com/adobe/aem-boilerplate#readme",
   "devDependencies": {
     "@babel/eslint-parser": "7.24.1",
+    "css-loader": "^7.1.2",
     "eslint": "8.57.0",
     "eslint-config-airbnb-base": "15.0.0",
     "eslint-plugin-import": "2.29.1",
     "eslint-plugin-json": "3.1.0",
+    "mini-css-extract-plugin": "^2.9.0",
+    "node-sass-glob-importer": "^5.3.3",
+    "sass": "^1.77.4",
+    "sass-loader": "^14.2.1",
+    "style-loader": "^4.0.0",
     "stylelint": "16.6.1",
-    "stylelint-config-standard": "36.0.0"
+    "stylelint-config-standard": "36.0.0",
+    "tailwindcss": "^3.4.4",
+    "webpack": "^5.91.0",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.4.19",
+    "postcss-loader": "^8.1.1"
   }
 }

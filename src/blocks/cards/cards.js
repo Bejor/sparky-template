@@ -1,5 +1,5 @@
-import { createOptimizedPicture } from '../../scripts/aem.js';
-import { moveInstrumentation } from '../../scripts/scripts.js';
+import { createOptimizedPicture } from '../../../scripts/aem.js';
+import { moveInstrumentation } from '../../../scripts/scripts.js';
 
 export default function decorate(block) {
   /* change to ul, li */
@@ -9,7 +9,7 @@ export default function decorate(block) {
     moveInstrumentation(row, li);
     while (row.firstElementChild) li.append(row.firstElementChild);
     [...li.children].forEach((div) => {
-      if (div.children.length === 1 && div.querySelector('picture')) div.className = 'cards-card-image';
+      if (div.children.length === 1 && div.querySelector('picture')) div.className = 'cards-card-image-test';
       else div.className = 'cards-card-body';
     });
     ul.append(li);
