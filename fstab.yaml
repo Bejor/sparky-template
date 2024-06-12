@@ -1,5 +1,5 @@
 mountpoints:
   /:
-    url: "https://author-p15404-e146221-cmstg.adobeaemcloud.com/bin/franklin.delivery/adobe-rnd/aem-boilerplate-xwalk/main"
+    url: "https://author-p136111-e1367719.adobeaemcloud.com/bin/franklin.delivery/Bejor/sparky-template/main"
     type: "markup"
     suffix: ".html"
