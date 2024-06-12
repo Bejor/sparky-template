@@ -2,8 +2,8 @@
 Your project's description...
 
 ## Environments
-- Preview: https://main--spark-template--OGB-Verlag.hlx.page/
-- Live: https://main--spark-template--OGB-Verlag.hlx.live/
+- Preview: https://main--sparky-template--bejor.hlx.page/
+- Live: https://main--sparky-template--bejor.hlx.live/
 
 ## Installation
 
