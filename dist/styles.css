@@ -573,10 +573,6 @@ video {
 .border {
   border-width: 1px;
 }
-.bg-red-500 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(239 68 68 / var(--tw-bg-opacity));
-}
 .underline {
   text-decoration-line: underline;
 }
@@ -1245,9 +1241,4 @@ main .section {
 main .section.light,
 main .section.highlight {
   background-color: var(--light-color);
-}
-
-body {
-  --tw-bg-opacity: 1 !important;
-  background-color: rgb(239 68 68 / var(--tw-bg-opacity)) !important;
 }

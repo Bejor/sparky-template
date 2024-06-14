@@ -4,7 +4,3 @@
 
 @import './blocks/**/*.scss';
 @import './site/**/*.scss';
-
-body {
-    @apply bg-red-500 #{!important};
-}
