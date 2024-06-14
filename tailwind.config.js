@@ -28,6 +28,7 @@ module.exports = {
       spacing: {
         'outer-spacing': '2rem',
         'desktop-outer-spacing': '1.5rem',
+        'component-spacing': '2rem',
       },
       colors: {
         primary: '#E2001A',
