@@ -191,9 +191,9 @@
   "fields": [
      {
        "component": "text-only",
-       "name": "embed",
+       "name": "html",
        "value": "",
-       "label": "Embed",
+       "label": "HTML",
        "valueType": "string"
      }
    ]
