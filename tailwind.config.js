@@ -12,7 +12,28 @@ module.exports = {
       headline: ['Proxima Nova', 'Arial', 'sans-serif'],
       menu: ['Proxima Nova', 'Arial', 'sans-serif'],
     },
-    extend: {},
+    fontSize: {
+      xxs: '10px',
+      xs: '14px',
+      tiny: '16px',
+      s: '18px',
+      default: '20px',
+      m: '24px',
+      l: '32px',
+      xl: '36px',
+      xxl: '42px',
+      xxxl: '60px',
+    },
+    extend: {
+      spacing: {
+        'outer-spacing': '2rem',
+        'desktop-outer-spacing': '1.5rem',
+      },
+      colors: {
+        primary: '#E2001A',
+        'interactive-state-hover': '#C60000',
+      },
+    },
   },
   plugins: [],
 };

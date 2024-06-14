@@ -528,15 +528,158 @@ video {
 .collapse {
   visibility: collapse;
 }
+.m-0 {
+  margin: 0px;
+}
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
 .block {
   display: block;
+}
+.flex {
+  display: flex;
 }
 .hidden {
   display: none;
 }
+.w-full {
+  width: 100%;
+}
+.max-w-full {
+  max-width: 100%;
+}
+.max-w-screen-desktop {
+  max-width: 992px;
+}
+.cursor-pointer {
+  cursor: pointer;
+}
 .resize {
   resize: both;
 }
+.flex-col {
+  flex-direction: column;
+}
+.bg-primary {
+  --tw-bg-opacity: 1;
+  background-color: rgb(226 0 26 / var(--tw-bg-opacity));
+}
+.p-0 {
+  padding: 0px;
+}
+.px-5 {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+.py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+.font-body {
+  font-family: Arial, sans-serif;
+}
+.text-default {
+  font-size: 20px;
+}
+.text-primary {
+  --tw-text-opacity: 1;
+  color: rgb(226 0 26 / var(--tw-text-opacity));
+}
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+.underline {
+  text-decoration-line: underline;
+}
+.no-underline {
+  text-decoration-line: none;
+}
+.duration-200 {
+  transition-duration: 200ms;
+}
+.button-container .button {
+  cursor: pointer;
+  --tw-bg-opacity: 1;
+  background-color: rgb(226 0 26 / var(--tw-bg-opacity));
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+  text-decoration-line: none;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 200ms;
+}
+.button-container .button:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(198 0 0 / var(--tw-bg-opacity));
+}
+
+p {
+  margin-top: 2.5rem;
+}
+
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+body {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  padding-top: 5rem;
+}
+body > .root > .cmp-container {
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.section {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+@media (min-width: 767px) {
+  .section {
+    max-width: 767px;
+  }
+}
+@media (min-width: 992px) {
+  .section {
+    max-width: 992px;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
+@media (min-width: 1024px) {
+  .section {
+    max-width: 1024px;
+  }
+}
+
+a {
+  --tw-text-opacity: 1;
+  color: rgb(226 0 26 / var(--tw-text-opacity));
+  text-decoration-line: underline;
+}
+
 @font-face {
   font-family: "Proxima Nova";
   font-style: normal;
@@ -562,14 +705,7 @@ video {
   src: local("Proxima Nova Bold"), local("ProximaNova-Bold"), url(1c914fcbdaf941451b55.woff2) format("woff2"), url(7112f0f729a7f7c47b90.woff) format("woff");
 }
 /* add global styles that can be loaded post LCP here */
-/*
- * Copyright 2020 Adobe. All rights reserved.
- * This file is licensed to you under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License. You may obtain a copy
- * of the License at http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software distributed under
- * the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR REPRESENTATIONS
- * OF ANY KIND, either express or implied. See the License for the specific language
- * governing permissions and limitations under the License.
- */
+.hover\:bg-interactive-state-hover:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(198 0 0 / var(--tw-bg-opacity));
+}
