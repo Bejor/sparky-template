@@ -185,5 +185,18 @@
         "valueType": "string"
       }
     ]
-  }
+  },
+  {
+  "id": "embed",
+  "fields": [
+     {
+       "component": "text-only",
+       "name": "embed",
+       "value": "",
+       "label": "Embed",
+       "valueType": "string"
+     }
+   ]
+}
+
 ]
