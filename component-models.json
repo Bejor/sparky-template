@@ -185,18 +185,5 @@
         "valueType": "string"
       }
     ]
-  },
-  {
-  "id": "embed",
-  "fields": [
-     {
-        "component": "richtext",
-        "name": "text",
-        "value": "",
-        "label": "Text",
-        "valueType": "string"
-      }
-   ]
-}
-
+  }
 ]
