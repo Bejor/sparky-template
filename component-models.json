@@ -190,12 +190,12 @@
   "id": "embed",
   "fields": [
      {
-       "component": "text-only",
-       "name": "html",
-       "value": "",
-       "label": "HTML",
-       "valueType": "string"
-     }
+        "component": "richtext",
+        "name": "text",
+        "value": "",
+        "label": "Text",
+        "valueType": "string"
+      }
    ]
 }
 
