@@ -185,5 +185,17 @@
         "valueType": "string"
       }
     ]
+  },
+  {
+  "id": "embed",
+  "fields": [
+      {
+        "component": "text-area",
+        "name": "embedHtml",
+        "value": "",
+        "label": "embedHTML",
+        "valueType": "string"
+      }
+    ]
   }
 ]

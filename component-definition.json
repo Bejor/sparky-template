@@ -16,18 +16,6 @@
             }
           }
         },
-         {
-          "title": "Embed",
-          "id": "embed",
-          "plugins": {
-            "xwalk": {
-              "page": {
-                "resourceType": "core/franklin/components/embed/v1/embed",
-                "template": {}
-              }
-            }
-          }
-        },
         {
           "title": "Title",
           "id": "title",
