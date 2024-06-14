@@ -597,10 +597,19 @@ video {
 .no-underline {
   text-decoration-line: none;
 }
+.transition-all {
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
 .duration-200 {
   transition-duration: 200ms;
 }
+.button-container {
+  margin-top: 2rem;
+}
 .button-container .button {
+  display: inline-block;
   cursor: pointer;
   --tw-bg-opacity: 1;
   background-color: rgb(226 0 26 / var(--tw-bg-opacity));
@@ -618,6 +627,10 @@ video {
 .button-container .button:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(198 0 0 / var(--tw-bg-opacity));
+}
+
+.ex-embed {
+  margin-top: 2rem;
 }
 
 p {
