@@ -107,6 +107,27 @@
             "value": "secondary"
           }
         ]
+      },
+       {
+        "component": "select",
+        "name": "alignment",
+        "value": "",
+        "label": "Ausrichtung",
+        "valueType": "string",
+        "options": [
+          {
+            "name": "Linksbündig",
+            "value": "left"
+          },
+          {
+            "name": "Zentriert",
+            "value": "centered"
+          },
+          {
+            "name": "Rechtsbündig",
+            "value": "rechtsbündig"
+          }
+        ]
       }
     ]
   },
