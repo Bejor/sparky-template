@@ -216,13 +216,6 @@
         "value": "",
         "label": "embedHTML",
         "valueType": "string"
-      },
-      {
-        "component": "text",
-        "name": "embedType",
-        "value": "",
-        "label": "embedType",
-        "valueType": "string"
       }
     ]
   }

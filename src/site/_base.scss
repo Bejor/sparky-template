@@ -4,7 +4,7 @@ body {
 }
 
 body {
-    @apply mx-auto w-full pt-20;
+    @apply mx-auto w-full pt-10;
 
     &>.root>.cmp-container {
         @apply flex flex-col overflow-x-hidden;
@@ -23,11 +23,7 @@ body {
     }
 
     @screen desktop {
-        @apply max-w-screen-desktop px-desktop-outer-spacing;
-    }
-
-    @screen site {
-        @apply max-w-screen-site;
+        @apply max-w-[1440px] px-desktop-outer-spacing;
     }
 }
 

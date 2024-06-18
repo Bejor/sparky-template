@@ -1,0 +1,28 @@
+nav {
+    @apply flex flex-nowrap px-outer-spacing items-center justify-between bg-white bg-opacity-80 backdrop-blur-md fixed w-full top-0 py-4 z-10;
+
+    @screen tablet {
+        @apply px-desktop-outer-spacing;
+    }
+
+    .section {
+        @apply m-0 p-0;
+    }
+
+    .nav {
+        &-brand {
+            @apply w-[200px];
+        }
+
+        &-hamburger {
+            @apply hidden;
+        }
+
+        &-sections {
+            ul {
+                @apply flex p-0 gap-4;
+            }
+        }
+
+    }
+}
