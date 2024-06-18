@@ -5,7 +5,7 @@ module.exports = {
     screens: {
       tablet: '767px',
       desktop: '992px',
-      site: '1024px',
+      site: '1440px',
     },
     fontFamily: {
       body: ['Arial', 'sans-serif'],

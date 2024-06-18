@@ -1,7 +1,7 @@
 .button-container {
-    @apply mt-component-spacing;
+    @apply mt-component-spacing text-center;
 
     .button {
-        @apply bg-primary text-white cursor-pointer px-5 py-2 no-underline hover:bg-interactive-state-hover duration-200 transition-all inline-block;
+        @apply bg-primary text-white cursor-pointer px-5 py-2 no-underline hover:bg-interactive-state-hover duration-200 transition-all inline-block my-auto;
     }
 }

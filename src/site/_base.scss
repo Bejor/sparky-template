@@ -23,7 +23,7 @@ body {
     }
 
     @screen desktop {
-        @apply max-w-[1440px] px-desktop-outer-spacing;
+        @apply max-w-screen-site px-desktop-outer-spacing;
     }
 }
 
