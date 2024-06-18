@@ -1,6 +1,10 @@
 .nav-wrapper {
     @apply bg-white bg-opacity-80 backdrop-blur-md fixed w-full top-0 py-4 z-10;
 
+    p {
+        @apply m-0;
+    }
+
     nav {
         @apply flex flex-nowrap px-outer-spacing items-center justify-between max-w-screen-site mx-auto;
 
