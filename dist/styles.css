@@ -651,6 +651,9 @@ video {
 .text-s {
   font-size: 16px;
 }
+.font-normal {
+  font-weight: 400;
+}
 .not-italic {
   font-style: normal;
 }
@@ -855,6 +858,8 @@ em {
 html,
 body {
   margin: 0px;
+  --tw-bg-opacity: 1;
+  background-color: rgb(239 68 68 / var(--tw-bg-opacity));
   padding: 0px;
   font-family: Arial, sans-serif;
   font-size: 18px;
