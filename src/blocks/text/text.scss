@@ -1,3 +1,7 @@
 p {
     @apply mt-10;
 }
+
+em {
+    @apply not-italic w-full inline-block text-primary;
+}

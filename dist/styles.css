@@ -651,6 +651,9 @@ video {
 .text-s {
   font-size: 16px;
 }
+.not-italic {
+  font-style: normal;
+}
 .text-black {
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
@@ -839,6 +842,14 @@ video {
 
 p {
   margin-top: 2.5rem;
+}
+
+em {
+  display: inline-block;
+  width: 100%;
+  font-style: normal;
+  --tw-text-opacity: 1;
+  color: rgb(226 0 26 / var(--tw-text-opacity));
 }
 
 html,
