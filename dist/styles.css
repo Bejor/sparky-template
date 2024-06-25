@@ -1,5 +1,5 @@
 /*!**********************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!./src/main.scss ***!
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[2].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[2].use[3]!./src/main.scss ***!
   \**********************************************************************************************************************************************************************************************************/
 /*
 ! tailwindcss v3.4.4 | MIT License | https://tailwindcss.com
@@ -651,9 +651,6 @@ video {
 .text-s {
   font-size: 16px;
 }
-.font-normal {
-  font-weight: 400;
-}
 .not-italic {
   font-style: normal;
 }
@@ -858,8 +855,6 @@ em {
 html,
 body {
   margin: 0px;
-  --tw-bg-opacity: 1;
-  background-color: rgb(239 68 68 / var(--tw-bg-opacity));
   padding: 0px;
   font-family: Arial, sans-serif;
   font-size: 18px;
